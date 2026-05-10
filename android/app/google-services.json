@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "154331751363",
+    "project_id": "soklin-38da3",
+    "storage_bucket": "soklin-38da3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154331751363:android:552048ec2eb9df930dd376",
+        "android_client_info": {
+          "package_name": "com.bersih_in.bersih_in"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCopQK7EZgziyd5qcSo_vBR_mggAo3y_CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -30,22 +30,12 @@ class DefaultFirebaseOptions {
     }
   }
 
-  // TODO: Replace with actual Firebase config from flutterfire configure
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
+    apiKey: 'AIzaSyCopQK7EZgziyd5qcSo_vBR_mggAo3y_CA',
+    appId: '1:154331751363:android:552048ec2eb9df930dd376',
+    messagingSenderId: '154331751363',
+    projectId: 'soklin-38da3',
+    storageBucket: 'soklin-38da3.firebasestorage.app',
   );
 
-  // TODO: Replace with actual Firebase config from flutterfire configure
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    iosBundleId: 'com.bersihIn.app',
-  );
 }
