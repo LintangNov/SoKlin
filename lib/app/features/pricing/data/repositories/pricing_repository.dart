@@ -93,10 +93,11 @@ class PricingRepository implements PricingRepositoryBase {
         roomSizeM2, dirtLevelIndex, extraBathroom, extraDishes);
 
     final input = [normalized]; // shape [1, 4]
-    final output = List.generate(1, (_) => List.filled(1, 0.0)); // shape [1, 1]
+    
+    final output = List.generate(1, (_) => List.filled(2, 0.0)); 
 
     _interpreter!.run(input, output);
 
-    return _engine.postProcessPrice(output[0][0]);
+    return _engine.postProcessPrice(output[0][0]); 
   }
 }
