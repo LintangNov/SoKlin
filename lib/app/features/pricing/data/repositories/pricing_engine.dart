@@ -13,9 +13,20 @@ class PricingEngine implements PricingRepositoryBase {
   static const List<double> scalerMean = [14.5, 1.0, 0.5, 0.5];
   static const List<double> scalerStd = [6.3, 0.82, 0.5, 0.5];
 
+  static const List<double> scalerYMean = [34605.9905, 60.4205]; 
+  static const List<double> scalerYStd = [12821.9332, 21.023];
+
   // ---------------------------------------------------------------------------
   // PricingRepositoryBase implementation
   // ---------------------------------------------------------------------------
+
+  double inverseTransformPrice(double normalizedPrice) {
+    return (normalizedPrice * scalerYStd[0]) + scalerYMean[0];
+  }
+
+  double inverseTransformDuration(double normalizedDuration) {
+    return (normalizedDuration * scalerYStd[1]) + scalerYMean[1];
+  }
 
   @override
   Future<PriceEstimateModel> calculatePrice({

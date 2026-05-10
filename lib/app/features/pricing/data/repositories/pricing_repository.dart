@@ -94,10 +94,14 @@ class PricingRepository implements PricingRepositoryBase {
 
     final input = [normalized]; // shape [1, 4]
     
-    final output = List.generate(1, (_) => List.filled(2, 0.0)); 
+    final output = List.generate(1, (_) => List.filled(2, 0.0));
 
     _interpreter!.run(input, output);
 
-    return _engine.postProcessPrice(output[0][0]); 
+    double rawNormalizedPrice = output[0][0];
+
+    double realPrice = _engine.inverseTransformPrice(rawNormalizedPrice);
+
+    return _engine.postProcessPrice(realPrice);
   }
 }
