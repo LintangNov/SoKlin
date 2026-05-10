@@ -12,7 +12,20 @@
           "package_name": "com.bersih_in.bersih_in"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "154331751363-bphgvh4npdsfotvql6f05gld8t5246jd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bersih_in.bersih_in",
+            "certificate_hash": "8a75aa87ddcc8e3703e8a65f9136c1651a26cadf"
+          }
+        },
+        {
+          "client_id": "154331751363-6h7lokou922t59oa87r3qr9q2oq7e60r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCopQK7EZgziyd5qcSo_vBR_mggAo3y_CA"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154331751363-6h7lokou922t59oa87r3qr9q2oq7e60r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

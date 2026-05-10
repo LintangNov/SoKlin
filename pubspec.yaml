@@ -17,22 +17,22 @@ dependencies:
   get: ^4.6.6
 
   # Firebase
-  firebase_core: ^3.0.0
-  firebase_auth: ^5.0.0
-  cloud_firestore: ^5.0.0
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
 
   # Google Sign-In
-  google_sign_in: ^6.0.0
+  google_sign_in: ^6.2.0
 
-  # AI / ML (declared, Dev B will implement)
-  tflite_flutter: ^0.10.4
+  # AI / ML 
+  tflite_flutter: ^0.12.1
 
   # Media
   image_picker: ^1.0.0
   image: ^4.0.0
 
   # Utilities
-  intl: ^0.19.0
+  intl: ^0.20.2
   equatable: ^2.0.5
 
 dev_dependencies:

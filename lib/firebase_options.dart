@@ -21,8 +21,6 @@ class DefaultFirebaseOptions {
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
-      case TargetPlatform.iOS:
-        return ios;
       default:
         throw UnsupportedError(
           'DefaultFirebaseOptions are not supported for this platform.',
