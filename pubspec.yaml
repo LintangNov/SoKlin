@@ -1,0 +1,49 @@
+name: bersih_in
+description: "BersihIn - Layanan Kebersihan Mikro On-Demand"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management & Navigation
+  get: ^4.6.6
+
+  # Firebase
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+
+  # Google Sign-In
+  google_sign_in: ^6.0.0
+
+  # AI / ML (declared, Dev B will implement)
+  tflite_flutter: ^0.10.4
+
+  # Media
+  image_picker: ^1.0.0
+  image: ^4.0.0
+
+  # Utilities
+  intl: ^0.19.0
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/
+    - assets/images/
